@@ -1,0 +1,6 @@
+CREATE TABLE EMPLOYEE (
+    id SERIAL NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    age int,
+    PRIMARY KEY (id)
+);
